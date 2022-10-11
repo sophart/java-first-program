@@ -24,7 +24,7 @@ public class BestLoanRates {
         }
         else
         {
-            System.out.println("Best Available rate " + getRates(loanTermInYear) + "%");
+            System.out.println("Best Available Rate: " + getRates(loanTermInYear) + "%");
         }
 
         scanner.close();

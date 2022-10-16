@@ -20,7 +20,7 @@ public class Finance {
                 return args.length == 1;
             case SAVINGS_CALCULATOR:
                 return args.length == 3;
-            case "MortgageCalculator":
+            case MORTGAGE_CALCULATOR:
                 return args.length == 4;
         }
 
